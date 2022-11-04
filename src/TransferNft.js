@@ -20,8 +20,8 @@ const splToken = require('@solana/spl-token');
     //const secretKey = web3.provider.fromSecretKey(secretKey);
   
 
-  const tokenMintAddress = new web3.PublicKey(['BP3JVd6SxyHva66tjJagvHhk73WwxXGRVe8eAqvB6tUG'] , ['DbtFKGo2LUJc72dnAFVrjMuxPL5d4SZQyWSdwyaMRrxP'] , ['5z7QBek9MWbryXcQD1GEsu4TcEz5Trph8CDdHS9CUhTz']);
-  const nftReciver = new web3.PublicKey('CGQz9fqdx98MyaV72GBhTQdy8mXX42vp8Mk4E4j86wSf');
+  const tokenMintAddress = new web3.PublicKey(['BP3JVd6SxyHva66tjJagvHhk73WwxXGRVe8eAqvB6tUG'] , ['FXzrkpdA9iwqVjPZJySpFp5fS2cL6Rqpc2tXC1L6KB4v'] , ['DbtFKGo2LUJc72dnAFVrjMuxPL5d4SZQyWSdwyaMRrxP']);
+  const nftReciver = new web3.PublicKey('GrucP6zxh6AXaomcsg8CsD9ADZsNvrqjjSM87Vpt26BK');
 
   let my_token_account = await splToken.getOrCreateAssociatedTokenAccount(
     connection,
